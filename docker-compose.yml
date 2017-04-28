@@ -1,0 +1,5 @@
+web:
+    build: .
+    command: ruby app.rb
+    ports:
+        - "3000:3000"
